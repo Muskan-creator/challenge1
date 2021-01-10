@@ -1,0 +1,151 @@
+
+
+:root {
+    /* main colors */
+    --Cyan-primary: hsl(179, 62%, 43%);
+	--Bright-Yellow: hsl(71, 73%, 54%);
+	--Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+  body{
+	font-size: 16px;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--Light-Gray);
+	font-family: 'Karla', sans-serif;
+    
+  }
+  .container{
+	  background-color: white;
+	  border-radius:15px;
+	  
+	  margin:70px 390px 50px 340px;
+	  box-shadow: 5px 10px 8px lightgray;
+	  width: auto;
+	 
+
+  }
+  .container_1{
+	  
+	 
+	padding :60px 40px 0px 40px;
+	
+
+  }
+  .heading{
+	  color:var(--Cyan-primary);
+  }
+  .heading_2{
+	  color:var(--Bright-Yellow);
+  }
+  .data{
+	  font-weight: normal;
+	  color:hsl(218, 22%, 67%);;
+	  padding-bottom:50px;
+
+  }
+  .grid_container{
+	  border-radius:25px;
+	
+	  padding :0px ;
+	  display:flex;
+	  flex-direction: row;
+	  
+  }
+  .item_1{
+	  
+	border-bottom-left-radius: 15px;
+	  width:60vh;
+	  margin:0px;
+	  padding-left:50px;
+	  padding-bottom: 0px;
+	  background-color : var(--Cyan-primary);
+  }
+  .item_2{
+	  border-bottom-right-radius: 15px;
+	  background-color: #4ABEBD;
+	  padding-left:50px;
+	  width:60vh;
+  }
+  .item_heading{
+	  color:white;
+  }
+  .dollar{
+	  font-weight:bold;
+	  color:white;
+	  font-size:40px;
+	  padding-bottom: 0px;
+
+  }
+
+  .item_1span{
+	  font-size:12px;
+	  color:#fff8;;
+  }
+  .heading_3{
+	  padding-top:1px;
+	  margin-top:auto;
+	  
+	  
+	  margin-bottom:20px;
+	 
+	  color:#fff8;
+
+  }
+  .button_style{
+	background-color: #b0e422;
+	font-weight: bold;
+	border: none;
+	color: white;
+	padding: 15px 72px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 6px 60px 6px;
+	cursor: pointer;
+	border-radius:10px;
+	justify-content: center;
+	align-items: center;
+	 
+  }
+  button:hover {
+	  background-color:white;
+	  color:var(--Cyan-primary);
+
+  }
+  .details{
+	  padding-top:20px;
+	  color:#fff8;
+
+  }
+
+    .attribution { font-size: 11px; text-align: center; }
+	.attribution a { color: hsl(228, 45%, 44%); }
+	
+	@media screen and (max-width:1440px)
+	{
+		html, body{
+			width: 100%;
+			height: 100%;
+		}
+		body{
+			padding: 0;
+		}
+		.grid_container{
+			display:flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.item_1{
+			padding:2.5rem;
+
+		}
+		
+		.container {
+			margin: 1em 2em;
+		  }
+	}
+	
+
